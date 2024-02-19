@@ -1,0 +1,42 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+body{
+  background-image: url('./assets/image.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container{
+  backdrop-filter: blur(4px);
+  padding: 10px 0;
+  width:100vw;
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0%,0.75%);
+}
